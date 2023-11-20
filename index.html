@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Words Game</title>
 </head>
-
 <body>
 
-  <div class="container">
-    <h1>ԲԱՌԱԽԱՂ</h1>
+  <div class="title">
+    <h1>Ընտրիր լեզուն՝ խաղը սկսելու համար</h1>
+    <h2>Choose the language to start the game</h2>
+    <h3>Выберите язык, чтобы начать игру</h3>
+  </div>
+ 
+  <div class="main">
+    <a href="./html/armenian.html"><img src="./img/hy.png" alt="hy"></a>
+    <a href="./html/english.html"><img src="./img/usasvg.webp" alt="usa"></a>
+    <a href="./html/russian.html"><img src="./img/ru.svg.webp" alt="ru"></a>    
+  </div>
+
+  <footer>
     <div class="content">
-      <div class="word"></div>
-      <div class="details">
-        <p class="time">Մնաց։ <span><b>30</b></span>վրկ</p>
+      <div class="rules">
+        <p>Տառերը դասավորված են խառը հերթականությամբ, հարկավոր է գտնել ճիշտ հերթականությունը և գրել այն համապատասխան տողում։</p>
+        <p>The letters are arranged in a mixed order, you need to find the correct order and write it in the appropriate line.</p>
+        <p>Буквы расположены в смешанном порядке, вам нужно найти правильный порядок и написать его в соответствующей строке.</p>
       </div>
-      <input type="Գրիր ճիշտ բառը">
-      <div class="btns">
-        <button class="refresh">Փոխել բառը</button>
-        <button class="check">Ստուգել բառը
-        </button>
+      <div class="footer-text">
+        <h4>&copy; David Shahbazyan</h4>
       </div>
     </div>
-  </div>
-   
-
-    <script src="words.js" defer></script>
-    <script src="main.js" defer></script>
+  </footer>
+  
+  
 </body>
-
 </html>
