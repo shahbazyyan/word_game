@@ -21,7 +21,7 @@ function createGame (selectedWords) {
     };
     
     const initGame = () => {
-      startTimer(30);
+      startTimer(45);
        let randomObj = selectedWords[Math.floor(Math.random() * selectedWords.length)];
        let wordArray = randomObj.word.split("");
        for (let i = wordArray.length - 1; i >  0; i--) {
@@ -55,6 +55,11 @@ function createGame (selectedWords) {
     
     changeWord.addEventListener("click", initGame);
     checkWord.addEventListener("click", checkWords);
+    document.addEventListener("keyup", (e) => {
+      if (e.key === "Enter") {
+        checkWords()
+      };
+    });
 };
     
   

@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f8f8f8;
+    background-color: rgb(255, 230, 0);
     font-family: Arial, sans-serif;
   }
   
@@ -16,7 +16,7 @@ body {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: rgb(246, 184, 68);
   }
   
   .container h1 {
