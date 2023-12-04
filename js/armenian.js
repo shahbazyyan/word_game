@@ -41,12 +41,12 @@ function createGame(selectedWords) {
     let playerWord = input.value.toLocaleLowerCase();
     if (!playerWord) {
       alert("Խնդրում ենք լրացնել բառը։");
-      return; // Return if input is empty
+      return; 
     }
 
     if (playerWord !== correctWord) {
       alert(`${playerWord}֊ը սխալ էր, փորձի՛ր կրկին։`);
-      return; // Return if input is incorrect
+      return; 
     }
 
     alert('Դուք հաղթեցի՛ք։');

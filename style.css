@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #ff3;
+    background: rgb(225, 225, 104);
     overflow: hidden;
 }
 
@@ -57,7 +57,7 @@ h2, h3 {
   
 footer {
   position: fixed;
-  background-color: rgb(230, 197, 87);
+  background: linear-gradient(rgb(220, 220, 46) 10%, orange 90%);
   color: #000;
   padding: 20px;
   text-align: center;
